@@ -2,7 +2,7 @@
 import cv2
 # Load a color image 
 img = cv2.imread('messi5.jpg')
-# print image size
+# split the image into 3 channel data
 blue  = img[:, :, 0]  # blue channel data
 green = img[:, :, 1]  # green channel data
 red   = img[:, :, 2]  # red channel data
