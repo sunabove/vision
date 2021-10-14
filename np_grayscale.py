@@ -2,6 +2,7 @@
 import cv2, numpy as np
 
 gray = np.empty( (100, 200) )
+gray = np.zeros( (100, 200) )
 
 # horizontal line
 gray[ 50 ] = 255
