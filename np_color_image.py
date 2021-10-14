@@ -6,7 +6,10 @@ h = 100; w = 200; shape = (h, w)
 blue = np.empty( shape )
 # cross line
 blue[ 50 ] = 255 
-blue[ :, 100 ] = 255
+blue[  : , 100 ] = 255
+blue[ 0: , 100 ] = 255
+blue[ 0: -1 , 100 ] = 255
+blue[  : -1 , 100 ] = 255
 
 green = np.empty( shape )
 red = np.empty( shape )
